@@ -7,7 +7,11 @@
 
 body {
   font: 16px;
+<<<<<<< HEAD
   font-family: "Raleway", Sans-Serif;
+=======
+  font-family: raleway, Sans-Serif;
+>>>>>>> master
   line-height: 24px;
   background: url(images/axel-bg.jpg);
   background-size: cover;
@@ -40,6 +44,7 @@ h1 {
 h2 {
   font-size: 20px;
   font-family: "Playfair Display";
+<<<<<<< HEAD
   position: relative;
 	bottom: 0px;
 	right: 1px;
@@ -48,6 +53,22 @@ h2 {
 	font-weight: normal;
 	width: 300px;
   top: 15px;
+=======
+  margin: 0 0 6px 0;
+  position: relative;
+}
+
+h2 span {
+	position: absolute;
+	bottom: -24px;
+	right: 1px;
+	font-style: italic;
+	font-family: Georgia, Serif;
+	font-size: 15px;
+	color: #000000;
+	font-weight: normal;
+	width: 300px;
+>>>>>>> master
 }
 
 p {
@@ -71,7 +92,11 @@ ul {
 
 #objective {
   width: 500px;
+<<<<<<< HEAD
   clear: both;
+=======
+  float: left;
+>>>>>>> master
 }
 
 #objective p {
@@ -102,6 +127,7 @@ dd.clear {
   margin: 0;
   height: 15px;
 }
+<<<<<<< HEAD
 
 article {
   margin-top: 15px;
@@ -113,3 +139,5 @@ article {
 img {
   float: left;
 }
+=======
+>>>>>>> master
