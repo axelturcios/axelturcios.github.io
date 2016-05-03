@@ -1,92 +1,102 @@
-@import url (https://fonts.googleapis.com/css?family=Playfair+Display|Raleway)
-
-* {
-    margin: 0;
-    padding: 0;
+body {
+  font-family: 'PT Serif', serif;
+  font-size:16px;
   }
 
-body {
-  font: 16px;
-  font-family: "Raleway", Sans-Serif;
-  line-height: 24px;
-  background: url(axel-bg.jpg);
-  background-size: cover;
+#container {
+  margin: 0 auto;
 }
 
-.clear {
-  clear: both;
+header h1 {
+  padding-bottom: none;
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 80px;
+  margin-bottom: 20px;
 }
 
-#page-wrap {
-  width: 800px;
-  margin: 40px auto 60px;
+header > p{
+    list-style-type: none;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    font-style: none;
+    color: #808080;
 }
 
-#pic {
-  float: right;
-  margin: -30px 0 0 0;
+
+.nav ul {
+  font-family:'PT Serif', serif;
+  padding: 1em 0;
+  padding-left: 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
-h1 {
-  margin: 0 0 16px 0;
-  padding: 0 0 16px 0;
-  font-size: 35px;
-  font-family: "Playfair Display";
-  font-weight: bold;
-  letter-spacing: -2px;
-  border-bottom: 1px solid #999;
+.nav ul a {
+  color: #808080;
+}
+
+.nav ul a:hover {
+  color: #000;
+}
+
+.about p {
+  text-transform: none;
+  padding-left: 9px;
+  padding-right: 9px;
+  font-family:'PT Serif', serif;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.contact p {
+  text-transform: none;
+  padding-left: 9px;
+  padding-right: 9px;
+  font-family:'PT Serif', serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.resume p {
+  color: #000
 }
 
 h2 {
-  font-size: 20px;
-  font-family: "Playfair Display";
-  position: relative;
-	bottom: 0px;
-	right: 1px;
-	font-style: italic;
-	color: #000000;
-	font-weight: normal;
-	width: 300px;
-  top: 15px;
+  color: grey;
+}
+
+
+h3{
+  color:grey;
 }
 
 p {
-  margin: 0 0 15px 0;
+  margin-top:0;
+  margin-bottom:0;
 }
 
-a {
-  color: #999;
-  text-decoration: none;
-  border-bottom: 1px dotted #999;
+
+li{
+  padding-bottom: 6px;
 }
 
-a:hover {
-  border-bottom-style: solid;
-  color: black;
+
+nav{
+  text-align: center;
+  font-family: arial;
 }
 
-ul {
-  margin: 0 0 32px 17px;
+
+nav ul li{
+  display: inline-block;
+  width: 100px;
 }
 
-#objective {
-  width: 500px;
-  clear: both;
-}
-
-#objective p {
-  font-family: Georgia, Serif;
-  font-style: italic;
-  color: #666;
-}
-
-article {
-  margin-top: 15px;
-  color: #666;
-  font-family: Georgia, Serif;
-  font-style: italic;
-}
-
-img {
-  float: left;
+footer {
+  font-family:'PT Serif', serif;
+  font-size: 10px;
+  margin-top: 16px;
+  padding-top: 10px;
 }
